@@ -66,17 +66,25 @@ div#Header iframe {
 
 #anuncio-central {
 
-	margin: 100px 50%;
+	margin-left: 15%;
+	margin-top: 10%;
 
 }
 
-/*.cards-anuncio {
+.cards-anuncio {
 
-	width: 160px;
-	height: 100px;
-	float: right;
-	left: 100px;
+	width: 120px;
+	height: 60px;
+	float: left;
+}
 
-}*/
+.cards-anuncio p {
+
+	display: inline-block;
+	clear: both;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 
 
