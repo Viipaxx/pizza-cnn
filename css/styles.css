@@ -73,10 +73,9 @@ div#Header iframe {
 
 .cards-anuncio {
 
-	width: 320px;
-	height: 200px;
-	/*float: right;*/
-	display: inline-block;
+	width: 120px;
+	height: 60px;
+	float: left;
 }
 
 .cards-anuncio p {
