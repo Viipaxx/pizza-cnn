@@ -21,7 +21,6 @@ body {
     height: 100px;
     /* background: #162028; */
 	border: 1px solid red;
-	box-shadow: -1px -1px 0px black;
 	position: relative;
 
 }
@@ -79,7 +78,6 @@ body {
 .cards {
 
 	margin-top: 30px;
-	/* padding: 0 50px 50px 100px; */
 	overflow: auto;
 	
 }
@@ -104,5 +102,47 @@ body {
 .cards-anuncio {
 
 	width: 200px;
+	border-radius: 5px;
+
+}
+
+.noticias {
+
+	width: 100%;
+	padding: 0 100px 0 100px;
+	margin: auto;
+
+}
+
+.noticias a {
+
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+.noticias h1 {
+
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+.noticias p {
+	
+	width: 870px;
+	font-weight: bold;
+	margin: 0 10px;
+	margin-top: 15px;
+	text-align: center;
+
 
 }
