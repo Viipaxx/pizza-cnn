@@ -11,16 +11,16 @@ body {
 
 #principal {
 
-	width: 1024px;
-	margin: 20px auto;
+	width: 100%;
+	margin: auto auto;
 	overflow: hidden;
 
 }
 
 .header-top {
 
+	width: 100%;
     height: 100px;
-    /* background: #162028; */
 	border: 1px solid red;
 	position: relative;
 
@@ -59,15 +59,6 @@ body {
 
 }
 
-.ao-vivo {
-
-	position: absolute;
-	width: 130px;
-	height: 90px;
-	left: 44%;
-	top: 4px;
-
-}
 
 .lupa {
 
@@ -78,54 +69,65 @@ body {
 	cursor: pointer;
 }
 
+.ao-vivo {
+
+	position: absolute;
+	width: 130px;
+	height: 90px;
+	left: 48%;
+	top: 4px;
+
+}
+
+#anuncio-central {
+	margin: 0 25% 10px;
+	border-radius: 10px;
+}
 
 .row {
 	width: 100%;
-	overflow: hidden;
-	
 }
 
 .col-1-3 {
 
-	width: 30%;
+	width: 27%;
 	float: left;
+	margin-left: 16%;
 
 }
 
 .col-2-3 {
 	
-	width: 30%;
-	margin: 0 0 0 3%;
+	width: 27%;
 	float: left;
 }
 
 .col-3-3 {
 
-	width: 30%;
-	margin: 0 0 0 3%;
+	width: 27%;
 	float: left;
+
+}
+
+.cards-anuncio {
+
+	width: 300px;
+	border-radius: 5px;
 
 }
 
 .cards {
 
-	margin-top: 30px;
+	margin-top: 10px;
 	overflow: auto;
 	width: 100%;
 	
 }
 
- a {
-
-	text-decoration: none;
-
-}
 
 .news {
 	
-	float: left;
-	padding-left: 100px;
-	width: 20%;
+	width: 100%;
 
 }
 
@@ -142,24 +144,22 @@ body {
 	
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 2px;
-	color: #555;
-
-	
+	color: #555;	
 }
 
-.cards-anuncio {
+a {
 
-	width: 200px;
-	border-radius: 5px;
+	text-decoration: none;
 
-}
+}		
 
 .noticias {
 
 	width: 100%;
-	padding: 0 100px 0 100px;
 	margin: auto;
-
+	padding: 0 100px;
+	box-sizing: border-box;
+	
 }
 
 .noticias a {
@@ -179,14 +179,14 @@ body {
 	text-transform: uppercase;
 	margin: 10px;
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 	color: #555; 
 
 }
 
 .noticias p {
 	
-	width: 870px;
+	width: 100%;
 	font-weight: bold;
 	margin: 0 10px;
 	margin-top: 15px;
@@ -194,3 +194,5 @@ body {
 	color: #555;
 
 }
+
+
